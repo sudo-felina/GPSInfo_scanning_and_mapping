@@ -4,4 +4,4 @@ Along with giving us the heat map, it can also print out the metadata of each im
 
 Pillow library was used for getting the exif metadata and Gmplot was used for plotting of the heat map.Gmplot provides us with many different options for plotting of those points and you can read about it more at https://pypi.org/project/gmplot/.
 
-Data set used here was https://www.kaggle.com/jbakerdstl/geolocated-imagery-dataset-scotland.
+Data-set used here was take from the following link https://www.kaggle.com/jbakerdstl/geolocated-imagery-dataset-scotland.
