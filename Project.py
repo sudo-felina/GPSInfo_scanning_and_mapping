@@ -2,7 +2,7 @@ import os
 from PIL import Image,ExifTags
 import gmplot
 
-img_folder = r"/media/bojack/D/Work/Project/2/Scotland/Image/geolocated-imagery-dataset-scotland/Dataset"
+img_folder = r"/path/to/Dataset"
 img_contents = os.listdir(img_folder)
 lat_list = []
 long_list = []
@@ -64,6 +64,6 @@ for image in img_contents:
         pass
 
 
-gmap3 = gmplot.GoogleMapPlotter(56.4907,-4.2026,8)
-gmap3.heatmap(lat_list,long_list)
-gmap3.draw("/media/bojack/D/Work/Project/2/Scotland/map.html")
+gmap = gmplot.GoogleMapPlotter(56.4907,-4.2026,8)   #Defines the base map i.e the co-ordinates of the region where the photo was taken. 
+gmap.heatmap(lat_list,long_list)
+gmap.draw("/path/to/heat/map.html")
