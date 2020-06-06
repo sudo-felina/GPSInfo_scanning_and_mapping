@@ -63,7 +63,7 @@ for image in img_contents:
         print("Image {} no gps".format(image))
         pass
 
-
-gmap = gmplot.GoogleMapPlotter(56.4907,-4.2026,8)   #Defines the base map i.e the co-ordinates of the region where the photo was taken. 
+#First define the base map region i.e. the co-ordinates of the area where images were taken.
+gmap = gmplot.GoogleMapPlotter(lat,long,zoom_in_ratio)   
 gmap.heatmap(lat_list,long_list)
 gmap.draw("/path/to/heat/map.html")
