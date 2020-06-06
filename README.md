@@ -6,5 +6,4 @@ Along with giving us the heat map, it can also print out the metadata of each im
 
 Data-set used here was take from the following link https://www.kaggle.com/jbakerdstl/geolocated-imagery-dataset-scotland.
 
-![output](GPSInfo_scanning_and_mapping/Output.png)
-Format: ![Alt Text](url)
+
